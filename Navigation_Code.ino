@@ -13,12 +13,12 @@ const long upper    = 1200;   //filter out unwanted data in ultrasonic reading
 const long lower    = 150;    //only apply when averaging multiple trials
 
 /************** Pin Variables ***************/
-int a = 1;  int b = 2; //Kaitlin, Maria, please verify the digital pin asssignments
-int c = 3;  int d = 4;
-int e = 5;  int f = 6;
-int g = 7;  int RF_TX = 8;
-int RF_RX = 9;  int j = 10;
-int k = 11;
+int trig_Left_Top = 1;  int trig_Right_Side = 2; //Kaitlin, Maria, please verify the digital pin asssignments
+int LED = 3;  int RF = 4;
+int RF_TX = 5;  int RF_RX = 6;
+int Motor_controller = 7;  int motor_controller = 8;
+int motor_controller = 9;  int motor_controller = 10;
+int motor_controller = 11;
 int photoresist_pin     = 0;
 int ultrasound_top_pin  = 1;
 int ultrasound_left_pin = 2;
